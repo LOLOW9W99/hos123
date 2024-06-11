@@ -1,7 +1,7 @@
 {
-    "name": "𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴",
-    "description": "- لـ تشغيـل الاغانـي والفيديـو وتشغيل المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
-    "logo": "https://telegra.ph/file/a25271d31dd6e1bca849f.jpg",
+    "name": "ميـوزك ماتـركس",
+    "description": "- لـ تشغيـل الاغانـي والفيديـو والبثـوث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
+    "logo": "https://telegra.ph/file/342bad57d5d870a4b5163.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -12,16 +12,6 @@
     "pyrogram"
     ],
     "env": {
-         "API_ID": {
-        "description": "ماتبعصها",
-        "value": "28506261b7147d40c25a04bd86b9de6d",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "كمان ماتبعصها",
-        "value": "23709152",
-        "required": true
-          }, 
       "BOT_TOKEN": {
         "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
         "value": "7048904557:AAEalsC795iCQs-kGca1ufkns1S5TvXxppM",
@@ -42,11 +32,6 @@
         "value": "HRKU-a974bb70-b21e-49a5-a035-9a45ee4386f1",
         "required": false
       },
-          "MONGO_DB_URI": {
-        "description": "لاتغيرها ابدا.",
-        "value": "mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-        "required": true 
-     },      
       "HEROKU_APP_NAME": {
         "description": "⦗ اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش سمــول ⦗ صغيـره فقـط",
         "value": "",
@@ -76,4 +61,4 @@
           }
       },
       "stack": "container"
-  }
+}
