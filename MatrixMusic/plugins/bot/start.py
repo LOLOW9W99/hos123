@@ -71,7 +71,7 @@ async def start_pm(client, message: Message, _):
                 caption=searched_text,
                 reply_markup=key,
             )
-       else:
+    else:
         out = private_panel(_)
         await message.reply_photo(
             photo=config.START_IMG_URL,
