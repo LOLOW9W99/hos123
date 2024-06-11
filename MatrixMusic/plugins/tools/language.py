@@ -8,7 +8,6 @@ from MatrixMusic.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
-
 def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.add(
@@ -40,8 +39,7 @@ async def langs_command(client, message: Message, _):
         _["lang_1"],
         reply_markup=keyboard,
     )
-
-
+        
 @app.on_callback_query(filters.regex("LG") & ~BANNED_USERS)
 @languageCB
 async def lanuagecb(client, CallbackQuery, _):
