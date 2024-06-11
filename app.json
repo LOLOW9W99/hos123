@@ -13,38 +13,38 @@
     ],
     "env": {
          "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "description": "ماتبعصها",
+        "value": "28506261b7147d40c25a04bd86b9de6d",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "description": "كمان ماتبعصها",
+        "value": "23709152",
         "required": true
           }, 
       "BOT_TOKEN": {
         "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
-        "value": "",
+        "value": "7048904557:AAEalsC795iCQs-kGca1ufkns1S5TvXxppM",
         "required": true
       },
       "OWNER_ID": {
         "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "",
+        "value": "6094238403",
         "required": true
       },
       "STRING_SESSION": {
         "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
-        "value": "",
+        "value": "BAGi8fAAJP11T0MmgQzo9An81XvC9omWXzWxzU2PIyTs4tJwU7FgQWGiU57sMW7fz51k1DGAYgYxZBawsnTrFW-iJ-YLr7t8vHJoJeV4W7sL7MCXBvDjlMY9noYPxWzd2F0gLZV17VGtC9cGxM6NtQ_8p5pGWs_BdbZ4xPUkks8zRcFEId1KzEU0hW5NVNIc2NaRh-ZtONg1Vfeoyz9-kowTw6hmfyNwBX29gP5PPTEhp4o4srpF7l8qN5JdqH-pG7An1YhjVKfd2U5XBabHh5RMGYstpeYTvJYL4bGo30jrcvbpG3WP7WsPiJXoW24u-P0IdRc_scsZoWErWxevdETtJ5vimAAAAAGs3vLeAA",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "⦗ https://dashboard.heroku.com/account ⦘ ادخـل كود ايبـي كـي",
-        "value": "",
+        "value": "HRKU-a974bb70-b21e-49a5-a035-9a45ee4386f1",
         "required": false
       },
           "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "description": "لاتغيرها ابدا.",
+        "value": "mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true 
      },      
       "HEROKU_APP_NAME": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "ايـدي قروب السـجل",
-        "value": "-100",
+        "value": "-1002136290899",
         "required": true
       }
     },
