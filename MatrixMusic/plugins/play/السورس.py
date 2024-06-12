@@ -75,10 +75,10 @@ async def huhh(client: Client, message: Message):
      )
 
                
-@app.on_message(filters.command(["اسمي","اسمي اي","قول اسمي"], ""), group=123222)
+@app.on_message(filters.command(["اسمي","شو اسمي","قول اسمي"], ""), group=123222)
 async def vgdg(client: Client, message: Message):
     await message.reply_text(
-        f"""- اسمك » ⦗ {message.from_user.mention} ⦘ 💘 ⋅""") 
+        f"""- اسمك » ⦗ {message.from_user.mention} ⦘ 🖤 ⋅""") 
 
 
 ##############################################################
