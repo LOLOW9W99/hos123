@@ -41,9 +41,9 @@ async def huhh(client: Client, message: Message):
                         "‹ 𝐃𝐄𝐕 𝐒𝐎𝐔𝐑𝐂𝐄 › ", url=f"https://t.me/y_o_v"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝐒𝐎𝐔𝐑𝐂𝐄 ›", url=f"https://t.me/KKC8C"), 
+                        "‹ ᏟᎻᎪΝΝᎬᏞ ›", url=f"https://t.me/KKC8C"), 
                     InlineKeyboardButton(
-                        "‹ 𝐒𝐔𝐏𝐏𝐔𝐑𝐓 ›", url=f"https://t.me/Senzir_Suuport"),
+                        "‹ ᏟᎻᎪΝΝᎬᏞ² ›", url=f"https://t.me/cecrr"),
                 ],[
                     InlineKeyboardButton(
                         "‹ اضف بوت السورس الي مجموعتك ⚡️ ⋅ ›", url=f"http://t.me/F6Z_bot?startgroup=new"),
@@ -56,7 +56,7 @@ async def huhh(client: Client, message: Message):
 @app.on_message(filters.command(["مطور السورس"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/8583d191f523ba70380da.jpg",
+        photo=f"https://graph.org/file/a52bd3bd88fffadf20aca.jpg",
         caption=f"""• ⌯ Developer Name : ˛ 𓆩ََِِ𝐘َِْ𝐎ِِ𝐔ًٌُ𝐒𝐄ُِ𝐅𓆪 ⌯ •\n- Devloper Username : @y_o_v Devloper id : 6094238403 ⋅""",
         reply_markup=InlineKeyboardMarkup(
         [
