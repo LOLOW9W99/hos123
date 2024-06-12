@@ -4,7 +4,8 @@ from MatrixMusic import app
 import random
 from strings.filters import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-     
+#BiLaL
+
 
 iddof = []
 @app.on_message(
@@ -12,14 +13,14 @@ iddof = []
     & filters.group
 )
 async def iddlock(client, message):
-   get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in ["creator", "administrator"]:
+   get = await client.get_chat_member(message.chat.id, message.from_user.id)
+   if get.status in [5449190469]:
       if message.chat.id in iddof:
-        return await message.reply_text("- الايدي معطل من قبل. ")
+        return await message.reply_text("تم معطل من قبل \n√")
       iddof.append(message.chat.id)
-      return await message.reply_text("- تم تعطيل الايدي ")
+      return await message.reply_text("تم تعطيل الايدي بنجاح √")
    else:
-      return await message.reply_text("انت لست ادمن ! ")
+      return await message.reply_text("لازم تكون ادمن \n√")
 
 @app.on_message(
     command(["فتح الايدي","تفعيل الايدي"])
@@ -27,13 +28,13 @@ async def iddlock(client, message):
 )
 async def iddopen(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in ["creator", "administrator"]:
+   if get.status in [5449190469]:
       if not message.chat.id in iddof:
-        return await message.reply_text("- الايدي مفعل من قبل. ")
+        return await message.reply_text("الايدي مفعل من قبل √")
       iddof.remove(message.chat.id)
-      return await message.reply_text("- تم فتح الايدي بنجاح. ")
+      return await message.reply_text("تم فتح الايدي بنجاح √")
    else:
-      return await message.reply_text("انت لست ادمن ! ")
+      return await message.reply_text("لازم تكون ادمن \n√")
 
 
 
@@ -48,7 +49,7 @@ async def iddd(client, message):
     usr = await client.get_chat(message.from_user.id)
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"""⤹ NaMe. : {message.from_user.mention}\n ⤹ UseR. : @{message.from_user.username}\n ⤹ Id. : `{message.from_user.id}`\n ⤹ Bio. :{usr.bio}\n ⤹ ChaT: {message.chat.title}\n⤹ iD GrouP : `{message.chat.id}`""", 
+    await message.reply_photo(photo,       caption=f"""⌯ 𝐍𝐚𝐦𝐞 :{message.from_user.mention}\n⌯ 𝐔𝐬𝐞𝐫 :@{message.from_user.username}\n⌯ 𝐈𝐝 :`{message.from_user.id}`\n⌯ 𝐁𝐢𝐨 :{usr.bio}\n⌯ 𝐂𝐡𝐚𝐭 : {message.chat.title}\n⌯ 𝐈𝐝 𝐜𝐡𝐚𝐭:`{message.chat.id}`""", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,13 +69,13 @@ iddof = []
 )
 async def lllock(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in ["creator", "administrator"]:
+   if get.status in [5449190469]:
       if message.chat.id in iddof:
-        return await message.reply_text("• جمالي معطل من قبل")
+        return await message.reply_text("جمالي معطل من قبل√")
       iddof.append(message.chat.id)
-      return await message.reply_text("• تم تعطيل جمالي بنجاح ")
+      return await message.reply_text(" تم تعطيل جمالي بنجاح√")
    else:
-      return await message.reply_text("انت لست ادمن	! ")
+      return await message.reply_text("لازم تكون ادمن\n√")
 
 @app.on_message(
     command(["فتح جمالي","تفعيل جمالي"])
@@ -82,14 +83,37 @@ async def lllock(client, message):
 )
 async def idljjopen(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
-   if get.status in ["creator", "administrator"]:
+   if get.status in [5449190469]:
       if not message.chat.id in iddof:
-        return await message.reply_text("• جمالي مفعل من قبل")
+        return await message.reply_text("جمالي مفعل من قبل√")
       iddof.remove(message.chat.id)
-      return await message.reply_text("• تم فتح جمالي بنجاح ")
+      return await message.reply_text("تم فتح جمالي بنجاح √")
    else:
-      return await message.reply_text("انت لست ادمن	! ")
+      return await message.reply_text("هذا الامر للأدمن فقط")
 
+
+
+@app.on_message(filters.command(['تفعيل التعديل'], prefixes=""))
+async def iddlock(client, message):
+    get = await client.get_chat_member(message.chat.id, message.from_user.id)
+    if get.status in [5449190469]:
+        if message.chat.id in italy:
+            return await message.reply_text("تم تفعيل التعديل \n√")
+        italy.append(message.chat.id)
+        return await message.reply_text("تم تفعيل التعديل بنجاح \n√")
+    else:
+        return await message.reply_text("يجب عليك أن تكون مشرف اولا \n√")
+
+@app.on_message(filters.command(['تعطيل التعديل'], prefixes=""))
+async def iddopen(client, message):
+   get = await app.get_chat_member(message.chat.id, message.from_user.id)
+   if get.status in [5449190469]:
+      if not message.chat.id in italy:
+        return await message.reply_text("التعديل معطل من قبل \n√")
+      italy.remove(message.chat.id)
+      return await message.reply_text("تم فتح تعطيل بنجاح \n√")
+   else:
+      return await message.reply_text("لازم تكون ادمن اولا \n√")
 
 
 
@@ -105,7 +129,7 @@ async def idjjdd(client, message):
     i = ["0","10", "15","20", "25","30","35", "40","45", "50","55", "60"," 66", "70","77", "80","85", "90","99", "100","1000" ]
     ik = random.choice(i)
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"نسبة جمالك هي \n│ \n└BY: {ik} %", 
+    await message.reply_photo(photo,       caption=f"نسبه جمالك يصاحبي \n※ \n🐉: {ik} %😂❤️", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -114,4 +138,5 @@ async def idjjdd(client, message):
                 ],
             ]
         ),
-                             )
+    )
+       
